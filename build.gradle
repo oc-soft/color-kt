@@ -19,10 +19,10 @@ repositories { // Use jcenter for resolving dependencies.
 }
 
 group = 'com.github.oc-soft'
-version = '0.1.2'
+version = '0.1.0'
 ext.pom = [
-    description: 'kotlin matrix library',
-    url: 'https://github.com/oc-soft/matrix-kt',
+    description: 'kotlin color library',
+    url: 'https://github.com/oc-soft/color-kt',
     licenses: [
         [
             name: 'ISC'
@@ -40,12 +40,12 @@ ext.pom = [
         url: 'https://oc-soft.net/'
     ],
     scm: [
-        connection: 'https://github.com/oc-soft/matrix-kt.git',
+        connection: 'https://github.com/oc-soft/color-kt.git',
         developerConnection:
-            'https://github.com/oc-soft/matrix-kt.git',
+            'https://github.com/oc-soft/color-kt.git',
 
         url:
-            'https://github.com/oc-soft/matrix-kt#matrix-library-for-kotlin'
+            'https://github.com/oc-soft/color-kt'
     ]
 ]
 
@@ -99,6 +99,7 @@ kotlin {
         commonMain {
             dependencies {
                 implementation kotlin('stdlib')
+                implementation 'com.github.oc-soft:oc-number:0.1.1'
              } 
         }
         commonTest {

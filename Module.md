@@ -1,6 +1,6 @@
-# Module oc-matrix
+# Module oc-color
 
-This project has matrix related functions for kotlin. 
+This project has color related functions for kotlin. 
 
 # Pacakge net.oc_soft
 
